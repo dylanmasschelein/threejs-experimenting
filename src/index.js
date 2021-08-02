@@ -3,12 +3,14 @@ import ReactDOM from "react-dom";
 import SphereApp from "./SphereApp";
 import SquareApp from "./SquareApp";
 import HeartApp from "./HeartApp";
+import ExperimentalApp from "./ExperimentalApp";
 
 ReactDOM.render(
   <React.StrictMode>
     {/* <SphereApp /> */}
     {/* <SquareApp /> */}
-    <HeartApp />
+    {/* <HeartApp /> */}
+    <ExperimentalApp />
   </React.StrictMode>,
   document.getElementById("root")
 );

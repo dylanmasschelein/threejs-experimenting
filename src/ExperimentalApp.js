@@ -8,10 +8,10 @@ import GroundPlane from "./components/GroundPlane/GroundPlane";
 import Backdrop from "./components/BackDrop/BackDrop";
 import SphereFillLight from "./components/SphereFillLight/SphereFillLight";
 import SphereRimLight from "./components/SphereRimLight/SphereRimLight";
-import HeartGeometry from "./components/HeartGeometry/HeartGeometry";
 import { OrbitControls } from "@react-three/drei";
+import ExperimentalGeometry from "./components/ExperimentalGeometry/ExperimentalGeometry";
 
-const PrimitiveApp = () => {
+const ExperimentalApp = () => {
   return (
     <div className='App'>
       <Canvas>
@@ -19,11 +19,11 @@ const PrimitiveApp = () => {
         <Backdrop />
         <SphereFillLight />
         <SphereKeyLight />
-        <HeartGeometry />
+        <ExperimentalGeometry />
         <OrbitControls />
       </Canvas>
     </div>
   );
 };
 
-export default PrimitiveApp;
+export default ExperimentalApp;
